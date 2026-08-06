@@ -1,0 +1,6 @@
+estrutura do programa
+
+IDENTIFICATION DIVISION → identifica o programa.
+DATA DIVISION → declara as variáveis.
+PROCEDURE DIVISION → contém as instruções do programa.
+
