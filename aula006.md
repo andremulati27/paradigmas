@@ -1,7 +1,4 @@
 Atividades Complementares — Autopesquisa
-Resumo
-
-O objetivo é estudar, no Sebesta (11ª ed., §§6.6–6.14), estruturas de dados, gerenciamento de memória e sistemas de tipos.
 
 Matrizes associativas
 
