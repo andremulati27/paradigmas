@@ -1,4 +1,4 @@
-# Exercício em Duplas — Preveja Antes de Executar
+# Exercício em Duplas aula 006
 
 ---
 
