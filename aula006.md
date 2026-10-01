@@ -1,23 +1,4 @@
-Claro — organizei em um `.md` mais **resumido**, incluindo **o que o exercício pede**, as respostas e a ideia principal de cada questão.
-
- Exercício em Duplas — Preveja Antes de Executar
-
 # Exercício em Duplas — Preveja Antes de Executar
-
- ## O que o exercício quer?
-
- O objetivo é **prever o comportamento dos programas antes de executá-los** e observar **quando a linguagem detecta um problema**.
-
- Para cada trecho, devemos responder:
-
- 1. **Qual será a saída?**
-2. **Existe algum problema?**
-3. Se existir, ele é detectado:
-   - na **compilação**;
-   - na **execução**;
-   - ou **nunca**?
-
- O exercício compara como **JavaScript, Python, Go, Java, Rust e C** lidam com tipos, memória, limites e representação de dados.
 
 ---
 
@@ -231,31 +212,3 @@ u.i
  Não há necessariamente um erro detectado pelo compilador ou durante a execução; o resultado depende da implementação e da representação dos tipos.
 
 ---
-
- # Resumo geral
-
- | Nº | Linguagem | Resultado | Problema detectado |
-| --- | --- | --- | --- |
-| 1 | JavaScript | `false` / `9007199254740992` | Nunca |
-| 2 | Python | `4 5` | Nenhum |
-| 3 | Go | `0` | Nunca |
-| 4 | Java | `0` \+ exceção | Execução |
-| 5 | Rust | Não executa | Compilação |
-| 6 | C | Depende da implementação | Não necessariamente |
-
----
-
- ## O que o exercício demonstra?
-
- O exercício mostra que **cada linguagem possui mecanismos diferentes para lidar com erros e características dos tipos**.
-
- - **JavaScript:** permite problemas de precisão numérica sem gerar erro.
-- **Python:** diferencia quantidade de caracteres de quantidade de bytes.
-- **Go:** permite overflow de inteiros sem sinal.
-- **Java:** verifica limites de arrays durante a execução.
-- **Rust:** utiliza o sistema de tipos e ownership para detectar problemas durante a compilação.
-- **C:** permite manipulação de memória de baixo nível, como `union`, podendo produzir resultados dependentes da implementação.
-
- ### Principal aprendizado
-
- O exercício quer mostrar a diferença entre problemas detectados **antes da execução**, problemas detectados **durante a execução** e situações que **não geram erro**, mas podem produzir resultados inesperados.
